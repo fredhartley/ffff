@@ -1,0 +1,21 @@
+.FAQ-card {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .FAQ-card:hover {
+    background-color: #555;
+  }
+  
+  .FAQ-card-content {
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
