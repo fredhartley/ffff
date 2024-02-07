@@ -1,3 +1,46 @@
+html {
+  background-color: F4F4F4;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  color: #001AFF;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
+hr {
+  border-color: #001AFF;
+  border: 0.1px solid #001AFF;
+}
+
+.container-topic-card {
+  display: flex;
+  gap: 20px;
+}
+
+.topic-card {
+  color: black;
+  width: 135px; 
+  height: 65px;
+  background-color: #E0E2F3;
+  border-radius: 15px;
+}
+
+.topic-card a {
+  text-decoration: none;
+}
+
+/* FAQ expanding and collapsing */
 .FAQ-card {
     background-color: #777;
     color: white;
