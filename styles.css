@@ -1,7 +1,7 @@
 /* Global declartions */
 
 html {
-  background-color: F4F4F4;
+  background-color: #F4F4F4;
 }
 
 body {
@@ -25,6 +25,10 @@ hr {
   border-color: #001AFF;
   border: 0.1px solid #001AFF;
 }
+button {
+  font-family: 'Roboto Slab', serif;
+}
+
 
 /* Header */
 
@@ -58,20 +62,22 @@ header {
 
 /* introduction section */
 
-.intro {
-  margin: 30px 30px;
+.container-intro {
+  margin: 30px;
 }
 
 /* topics section */
 
 .container-topics-section {
-  margin: 30px 30px;
+  margin: 30px;
 }
 
 /* Topic cards */
 .container-topic-card {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .topic-card {
@@ -80,6 +86,7 @@ header {
   height: 65px;
   background-color: #E0E2F3;
   border-radius: 15px;
+  flex: 0 1 auto
 }
 
 .topic-card a {
@@ -87,9 +94,25 @@ header {
 }
 
 /* FAQ expanding and collapsing */
+
+.container-all-FAQs {
+  margin: 30px 30px 60px 30px;
+}
+
+.container-all-FAQs hr {
+  margin-bottom: 30px;
+}
+
+.container-all-FAQs-q-and-a {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .FAQ-card {
-    background-color: #777;
-    color: white;
+    background-color: #E0E2F3;
+    color: 000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -97,14 +120,25 @@ header {
     text-align: left;
     outline: none;
     font-size: 15px;
+    border-radius: 15px;
   }
   
   .active, .FAQ-card:hover {
-    background-color: #555;
+    background-color: #8894FF;
   }
   
   .FAQ-card-content {
     padding: 0 18px;
     overflow: hidden;
     background-color: #f1f1f1;
+  }
+
+  /* footer */
+
+  .container-footer {
+    background-color: #373737;
+    color: white;
+    width: auto;
+    padding: 30px;
+    height: 50px;
   }
