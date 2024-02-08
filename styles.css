@@ -1,3 +1,5 @@
+/* Global declartions */
+
 html {
   background-color: F4F4F4;
 }
@@ -5,6 +7,7 @@ html {
 body {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
+  margin: 0px;
 }
 
 h1 {
@@ -23,6 +26,49 @@ hr {
   border: 0.1px solid #001AFF;
 }
 
+/* Header */
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
+  margin: 0px;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+.container-header input {
+  text-decoration: none;
+  border: 0px solid;
+  color: #555555;
+  background-color: #E5E3E3;
+  border-radius: 15px;
+  height: 35px;
+  width: 120px;
+  margin: 0px 30px;
+  padding: 2px 25px;
+  font-size: 15px; 
+  /* ^ change to rem */
+}
+
+/* introduction section */
+
+.intro {
+  margin: 30px 30px;
+}
+
+/* topics section */
+
+.container-topics-section {
+  margin: 30px 30px;
+}
+
+/* Topic cards */
 .container-topic-card {
   display: flex;
   gap: 20px;
