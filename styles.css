@@ -85,16 +85,25 @@ header {
   color: black;
   background-color: #E0E2F3;
   border-radius: 15px;
-  flex: 1 0 auto;
-  flex-basis: auto; 
   margin-bottom: 20px;
-  width: 150px;
+  flex-grow: 1;
+  min-width: 150px; /* Set a minimum width */
   height: 125px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .container-topic-card a {
   text-decoration: none;
+}
+
+.topic-illustration {
+  width: 75px;
+  height: 75px;
 }
 
 /* FAQ expanding and collapsing */
