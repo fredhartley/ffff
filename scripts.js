@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function() {
 
-    let faqCardsSum = document.querySelectorAll(".FAQ-card-summary");
+    let faqCardsSum = document.querySelectorAll(".FAQ-card-question__container");
     faqCardsSum.forEach(function(card) {
         let faqCardIcon = card.querySelector(".FAQ-card-icon");
         card.addEventListener("click", function() {

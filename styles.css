@@ -28,7 +28,7 @@ hr {
   border: 0.1px solid #001AFF;
 }
 
-.body-footer-container {
+.content-footer__container {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -37,32 +37,32 @@ hr {
 
 /* Header */
 
-.container-header {
+.header__container {
   width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.25);
   margin: 0px;
 }
 
-.container-header img {
+.header__container img {
   width: 110px;
   margin-left: 15px;
 }
 
 /* introduction section */
 
-.container-intro {
+.intro__container {
   margin: 30px;
   max-width: 900px;
 }
 
 /* topics section */
 
-.container-topics-section {
+.topics-section__container {
   margin: 30px;
 }
 
 /* Topic cards */
-.container-topic-card {
+.topic-cards__container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
@@ -70,7 +70,7 @@ hr {
   font-weight: 500;
 }
 
-.container-topic-card a {
+.topic-cards__container a {
   text-decoration: none;
   display: block;
   width: 50%;
@@ -80,12 +80,12 @@ hr {
   min-width: 150px; 
 }
 
-.container-topic-card a:nth-child(-n+2) {
+.topic-cards__container a:nth-child(-n+2) {
   margin-bottom: 10px;
 }
 
-.container-topic-card a:nth-child(1),
-.container-topic-card a:nth-child(3) {
+.topic-cards__container a:nth-child(1),
+.topic-cards__container a:nth-child(3) {
   margin-right: 10px;
 }
 
@@ -103,22 +103,22 @@ hr {
   gap: 10px;
 }
 
-.topic-illustration {
+.topic-card-illustration {
   width: 75px;
   height: 75px;
 }
 
 /* FAQ expanding and collapsing */
 
-.container-all-FAQs {
+.FAQs__container {
   margin: 30px 30px 60px 30px;
 }
 
-.container-all-FAQs hr {
+.FAQs__container hr {
   margin-bottom: 30px;
 }
 
-.container-all-FAQs-q-and-a {
+.FAQs-cards__container {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -150,7 +150,7 @@ hr {
     padding-left: 18px;
   }
 
-  .FAQ-card-summary {
+  .FAQ-card-question__container {
     display: flex;
     list-style: none;
     max-width: 100%;
@@ -176,7 +176,7 @@ hr {
 
   /* footer */
 
-  .container-footer {
+  .footer__container {
     background-color: #373737;
     color: white;
     width: auto;
@@ -190,15 +190,15 @@ hr {
 /* Media queries */
 
 @media (min-width: 450px) {
-  .container-content {
+  .content__container {
     margin: 0 auto;
   }
 
-  .container-intro {
+  .intro__container {
     margin: 30px;
   }
 
-  .container-topic-card a {
+  .topic-cards__container a {
     max-width: 40%; 
   }
   .topic-card {
@@ -209,11 +209,11 @@ hr {
 
 @media (min-width: 715px) {
 
-  .container-content {
+  .content__container {
     max-width: 700px;
   }
 
-  .container-topic-card a {
+  .topic-cards__container a {
     max-width: 22%; 
     margin: 0 10px 10px 0;
   }
@@ -221,7 +221,7 @@ hr {
     height: 150px;
   }
 
-  .container-all-FAQs-q-and-a {
+  .FAQs-cards__container {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -234,15 +234,15 @@ hr {
 
 @media (min-width: 950px) {
 
-  .container-intro {
+  .intro__container {
     margin: 50px 25px 50px 25px;
   }
 
-  .container-content {
+  .content__container {
     min-width: 950px;
   }
 
-  .container-topic-card a {
+  .topic-cards__container a {
     max-width: 22%; 
     margin: 0 10px 10px 0;
   }
