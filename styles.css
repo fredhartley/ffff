@@ -167,7 +167,7 @@ hr {
 
   }
 
-  .FAQ-card-answer p {
+  .FAQ-card-answer p, li {
     padding: 0px;
     margin: 0px;
     font-size: 14px;
@@ -210,7 +210,7 @@ hr {
 @media (min-width: 715px) {
 
   .container-content {
-    max-width: 850px;
+    max-width: 700px;
   }
 
   .container-topic-card a {
@@ -235,11 +235,11 @@ hr {
 @media (min-width: 950px) {
 
   .container-intro {
-    margin: 50px;
+    margin: 50px 25px 50px 25px;
   }
 
   .container-content {
-    max-width: 1050px;
+    min-width: 950px;
   }
 
   .container-topic-card a {
