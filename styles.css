@@ -5,13 +5,14 @@ html {
 }
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0px;
 }
 
 h1 {
   font-weight: 400;
+  font-family: 'Roboto Slab', serif;
 }
 
 h2 {
@@ -19,6 +20,7 @@ h2 {
   font-weight: 400;
   padding: 0px;
   margin: 0px;
+  font-family: 'Roboto Slab', serif;
 }
 
 hr {
@@ -65,6 +67,7 @@ hr {
   flex-wrap: wrap;
   margin-top: 30px;
   justify-content: center;
+  font-weight: 500;
 }
 
 .container-topic-card a {
@@ -154,12 +157,22 @@ hr {
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
   }
 
   .FAQ-card-answer {
     padding: 0px 20px 20px 20px;
     border-radius: 15px;
+
   }
+
+  .FAQ-card-answer p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+  }
+
 
   /* footer */
 
@@ -190,7 +203,7 @@ hr {
   }
   .topic-card {
     height: 150px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

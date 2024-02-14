@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function() {
     let faqCardDets = document.querySelectorAll(".FAQ-card");
     faqCardDets.forEach(function(card) { 
         card.addEventListener("toggle", () => {
-            card.style.backgroundColor = card.open ? "#8894FF" : "#E0E2F3";
+            card.style.backgroundColor = card.open ? "#c3c9ff" : "#E0E2F3";
         });
     });
 });
