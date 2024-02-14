@@ -25,10 +25,6 @@ hr {
   border-color: #001AFF;
   border: 0.1px solid #001AFF;
 }
-button {
-  font-family: 'Roboto Slab', serif;
-}
-
 
 /* Header */
 
@@ -127,19 +123,10 @@ button {
 
 .FAQ-card {
     background-color: #E0E2F3;
-    color: 000000;
     cursor: pointer;
-    padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
     border-radius: 15px;
-  }
-  
-  .active, .FAQ-card:hover {
-    background-color: #8894FF;
   }
   
   .FAQ-card-content {
@@ -148,25 +135,37 @@ button {
     background-color: #F4F4F4;
   }
 
-  /* .FAQ-card-content {
-    padding: 0 18px;
-    overflow: hidden;
-    background-color: #F4F4F4;
-  } */
-
   .FAQ-card-icon {
-    float: right;
+    font-size: 20px;
+    padding-left: 18px;
   }
+
+  .FAQ-card-summary {
+    display: flex;
+    list-style: none;
+    max-width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .FAQ-card-answer {
+    padding: 10px 20px 20px 20px;
+    background-color: #373737;
+    border-radius: 15px;
+  }
+
   /* footer */
 
   .container-footer {
     background-color: #373737;
     color: white;
     width: auto;
-    padding: 60px 30px 30px 30px;
-    height: 50px;
-    text-align:end;
+    padding: 30px 30px 30px 30px;
+    height: 100px;
+    text-align: center;
     font-weight: 300;
+    box-sizing: border-box;
   }
 
 /* Media queries */
@@ -189,7 +188,7 @@ button {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 715px) {
 
   .container-content {
     max-width: 850px;
@@ -203,7 +202,6 @@ button {
     height: 150px;
   }
 
-
   .container-all-FAQs-q-and-a {
     flex-direction: row;
     flex-wrap: wrap;
@@ -211,15 +209,15 @@ button {
   }
 
   .FAQ-card {
-    width: 45%;
-  }
-
-  .FAQ-card-content p {
-    width: 45%;
+    width: 48%;
   }
 }
 
 @media (min-width: 950px) {
+
+  .container-intro {
+    margin: 50px;
+  }
 
   .container-content {
     max-width: 1050px;
