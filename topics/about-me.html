@@ -1,22 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me | FFFF</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="../scripts.js"></script>
+
 </head>
+
 <body>
     <header>
-        <div>
-            <a href="../index.html"><img src="../images/FFFF-logo.svg" alt="Picture of FFFF logo"></a>
-            <input class="search-bar" type="text">
+        <div class="container-header">
+            <a href="index.html">
+                <img src="../images/FFFF-logo.svg" alt="Picture of FFFF logo">
+            </a>
         </div>
     </header>
+    <div class="body-footer-container">
+        <div class="container-content">
 
-    <h2>About me</h2>
-    <hr>
-        <!-- Put FAQ cards here last or find a way to update them dynamically -->
+            <div class="container-topics-section">
+                <h2>Popular topics</h2>
+                <hr>
+                <div class="container-topic-card">
+                    <a href="../index.html">
+                        <div class="topic-card">
+                            <img src="../images/all-topics-illo-blue.svg" alt="" class="topic-illustration">All topics
+                        </div>
+                    </a>
+                    <a href="../topics/why-web-dev.html">
+                        <div class="topic-card"><img src="../images/web-dev-illo-blue.svg" alt=""
+                                class="topic-illustration">Why web dev?</div>
+                    </a>
+                    <a href="../topics/projects.html">
+                        <div class="topic-card"><img src="../images/projects-illo-blue.svg" alt=""
+                                class="topic-illustration">Projects</div>
+                    </a>
+                    <a href="../topics/other.html">
+                        <div class="topic-card"><img src="../images/other-illo-blue.svg" alt=""
+                                class="topic-illustration">Other</div>
+                    </a>
+                </div>
+            </div>
+            <div class="container-all-FAQs">
+                <h2>About me – FAQs</h2>
+                <hr>
+                <div class="container-all-FAQs-q-and-a">
 
-    
+                    <details class="FAQ-card">
+                        <summary class="FAQ-card-summary">
+                            Can you give us an introduction to yourself?
+                            <span class="FAQ-card-icon">+</span>
+                        </summary>
+                        <div class="FAQ-card-answer">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="FAQ-card">
+                        <summary class="FAQ-card-summary">
+                            What is the meaning of life?
+                            <span class="FAQ-card-icon">+</span>
+                        </summary>
+                        <div class="FAQ-card-answer">
+                            <p>
+                                42
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="FAQ-card">
+                        <summary class="FAQ-card-summary">
+                            Do you have a degree?
+                            <span class="FAQ-card-icon">+</span>
+                        </summary>
+                        <div class="FAQ-card-answer">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="FAQ-card">
+                        <summary class="FAQ-card-summary">
+                            Are you currently working full-time?
+                            <span class="FAQ-card-icon">+</span>
+                        </summary>
+                        <div class="FAQ-card-answer">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation
+                            </p>
+                        </div>
+                    </details>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">© Fred Hartley</div>
+    </div>
 </body>
+
 </html>
