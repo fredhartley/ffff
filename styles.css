@@ -173,6 +173,9 @@ hr {
     font-size: 14px;
   }
 
+  details summary::-webkit-details-marker {
+    display:none;
+  }
 
   /* footer */
 
